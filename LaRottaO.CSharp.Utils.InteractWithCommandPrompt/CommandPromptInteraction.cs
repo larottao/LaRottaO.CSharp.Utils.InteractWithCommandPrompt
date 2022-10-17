@@ -19,6 +19,7 @@ namespace LaRottaO.CSharp.Utils.InteractWithCommandPrompt
         public Boolean markStdOrError { get; set; } = true;
         public Boolean insertTimeStamp { get; set; } = true;
         public Boolean insertNewLineAfter { get; set; } = true;
+        public Boolean alsoOutputToConsole { get; set; } = true;
 
         public void newInstance()
         {
@@ -27,9 +28,7 @@ namespace LaRottaO.CSharp.Utils.InteractWithCommandPrompt
             ProcessStartInfo processStartInfo = new ProcessStartInfo("cmd");
 
             processStartInfo.UseShellExecute = false;
-
             processStartInfo.CreateNoWindow = true;
-
             processStartInfo.RedirectStandardInput = true;
             processStartInfo.RedirectStandardOutput = true;
             processStartInfo.RedirectStandardError = true;
@@ -72,6 +71,11 @@ namespace LaRottaO.CSharp.Utils.InteractWithCommandPrompt
             {
                 results.Append("|" + Environment.NewLine);
             }
+
+            if (alsoOutputToConsole)
+            {
+                Console.WriteLine(results);
+            }
         }
 
         private void ErrorReceivedHandler(object sendingProcess, DataReceivedEventArgs dataReceivedEventArgs)
@@ -90,6 +94,10 @@ namespace LaRottaO.CSharp.Utils.InteractWithCommandPrompt
             if (insertNewLineAfter)
             {
                 results.Append("|" + Environment.NewLine);
+            }
+            if (alsoOutputToConsole)
+            {
+                Console.WriteLine(results);
             }
         }
 
