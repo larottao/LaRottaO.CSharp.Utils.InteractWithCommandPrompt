@@ -74,7 +74,7 @@ namespace LaRottaO.CSharp.Utils.InteractWithCommandPrompt
 
             if (alsoOutputToConsole)
             {
-                Console.WriteLine(results);
+                Console.WriteLine(dataReceivedEventArgs.Data);
             }
         }
 
@@ -97,7 +97,7 @@ namespace LaRottaO.CSharp.Utils.InteractWithCommandPrompt
             }
             if (alsoOutputToConsole)
             {
-                Console.WriteLine(results);
+                Console.WriteLine(dataReceivedEventArgs.Data);
             }
         }
 
