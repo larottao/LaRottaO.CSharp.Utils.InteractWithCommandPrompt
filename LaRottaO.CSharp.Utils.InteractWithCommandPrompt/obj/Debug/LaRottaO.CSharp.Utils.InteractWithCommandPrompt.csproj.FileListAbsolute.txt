@@ -1,0 +1,6 @@
+C:\Repositorios\LaRottaO.CSharp.Utils.InteractWithCommandPrompt\LaRottaO.CSharp.Utils.InteractWithCommandPrompt\bin\Debug\LaRottaO.CSharp.Utils.InteractWithCommandPrompt.dll
+C:\Repositorios\LaRottaO.CSharp.Utils.InteractWithCommandPrompt\LaRottaO.CSharp.Utils.InteractWithCommandPrompt\bin\Debug\LaRottaO.CSharp.Utils.InteractWithCommandPrompt.pdb
+C:\Repositorios\LaRottaO.CSharp.Utils.InteractWithCommandPrompt\LaRottaO.CSharp.Utils.InteractWithCommandPrompt\obj\Debug\LaRottaO.CSharp.Utils.InteractWithCommandPrompt.csproj.AssemblyReference.cache
+C:\Repositorios\LaRottaO.CSharp.Utils.InteractWithCommandPrompt\LaRottaO.CSharp.Utils.InteractWithCommandPrompt\obj\Debug\LaRottaO.CSharp.Utils.InteractWithCommandPrompt.csproj.CoreCompileInputs.cache
+C:\Repositorios\LaRottaO.CSharp.Utils.InteractWithCommandPrompt\LaRottaO.CSharp.Utils.InteractWithCommandPrompt\obj\Debug\LaRottaO.CSharp.Utils.InteractWithCommandPrompt.dll
+C:\Repositorios\LaRottaO.CSharp.Utils.InteractWithCommandPrompt\LaRottaO.CSharp.Utils.InteractWithCommandPrompt\obj\Debug\LaRottaO.CSharp.Utils.InteractWithCommandPrompt.pdb
